@@ -32,10 +32,4 @@ class HerokuPage
     assert sort_descending.join(' ') == sorted_elements
   end
 
-
-  # def get_last_name_descending()
-  #   last_name = @driver.find_elements(:css => LAST_NAME_COLUMN_CSS).map{|x| x.text}
-  #   last_name_sort_descending = last_name.sort.reverse
-  # end
-
 end

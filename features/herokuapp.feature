@@ -1,5 +1,5 @@
 Feature: Herokuapp website
-Test the login, hovers When tables features of the website.
+Test the login, hovers and tables features of the website.
 
   Scenario: Successful login
     Given I am on the login page
