@@ -1,0 +1,4 @@
+default: --profile chrome --format json -o report.json
+
+chrome: DRIVER=chrome
+firefox: DRIVER=firefox
